@@ -52,7 +52,7 @@ class Seat extends Component {
       <div className="Seating">
         <div className="class-Room">
           <Websocket
-            url={protocol + location.host}
+            url={protocol + "localhost:4000"}
             onMessage={this.handleData.bind(this)}
           />
           <div

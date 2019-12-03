@@ -2,6 +2,7 @@ const express = require("express");
 const http = require("http");
 const WebSocket = require("ws");
 const path = require("path");
+const cors = require("cors");
 const EventHubReader = require("./scripts/event-hub-reader.js");
 
 const iotHubConnectionString =
@@ -17,6 +18,8 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use((req, res /* , next */) => {
   res.redirect("/");
 });
+
+app.use(cors);
 
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
@@ -43,7 +46,7 @@ wss.broadcast = data => {
   });
 };
 
-server.listen(process.env.PORT || "3000", () => {
+server.listen(process.env.PORT || "4000", () => {
   console.log("Listening on %d.", server.address().port);
 });
 
