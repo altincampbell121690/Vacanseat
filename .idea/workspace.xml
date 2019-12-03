@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebb5d512-f91e-4689-b296-7ff3a1bf85b0" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="ebb5d512-f91e-4689-b296-7ff3a1bf85b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/seat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/seat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1814,41 +1821,46 @@
       </dailyData>
     </factor>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\altin\WebstormProjects\reactapp\node_modules\prettier" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Users\altin\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\193.5233.80\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\altin\WebstormProjects\reactProj\node_modules" />
+      <recent name="C:\Users\altin\WebstormProjects\reactProj" />
+      <recent name="C:\Users\altin\WebstormProjects\reactProj\public" />
+      <recent name="C:\Users\altin\WebstormProjects\reactProj\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\altin\WebstormProjects\reactProj\public\js" />
+      <recent name="C:\Users\altin\WebstormProjects\reactProj\public\css" />
       <recent name="C:\Users\altin\WebstormProjects\reactapp\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -1864,6 +1876,18 @@
       <envs />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1888,7 +1912,17 @@
       <workItem from="1573257458995" duration="321000" />
       <workItem from="1573581894193" duration="5461000" />
       <workItem from="1573666586855" duration="623000" />
-      <workItem from="1574395371179" duration="2618000" />
+      <workItem from="1574395371179" duration="3369000" />
+      <workItem from="1574453267362" duration="1240000" />
+      <workItem from="1574469903529" duration="538000" />
+      <workItem from="1574702500749" duration="611000" />
+      <workItem from="1574736865563" duration="1823000" />
+      <workItem from="1574787640782" duration="600000" />
+      <workItem from="1575010161507" duration="20000" />
+      <workItem from="1575108528924" duration="2488000" />
+      <workItem from="1575131391906" duration="21274000" />
+      <workItem from="1575316974379" duration="431000" />
+      <workItem from="1575344991776" duration="3573000" />
     </task>
     <task id="LOCAL-00001" summary="added initial refresh buttons and structure">
       <created>1574397642278</created>
@@ -1911,7 +1945,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574397847174</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added initial refresh buttons and structure">
+      <created>1574398003276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574398003276</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1933,5 +1974,43 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added initial refresh buttons and structure" />
     <option name="LAST_COMMIT_MESSAGE" value="added initial refresh buttons and structure" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="403" y="198" key="#ESLint" timestamp="1575163763351">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="403" y="198" key="#ESLint/0.0.1620.1080@0.0.1620.1080" timestamp="1575163763351" />
+    <state x="946" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575140858933">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="946" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1620.1080@0.0.1620.1080" timestamp="1575140858933" />
+    <state width="1600" height="386" key="GridCell.Tab.0.bottom" timestamp="1575348384435">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1600" height="386" key="GridCell.Tab.0.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1575348384435" />
+    <state width="1600" height="386" key="GridCell.Tab.0.center" timestamp="1575348384434">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1600" height="386" key="GridCell.Tab.0.center/0.0.1620.1080@0.0.1620.1080" timestamp="1575348384434" />
+    <state width="1600" height="386" key="GridCell.Tab.0.left" timestamp="1575348384434">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1600" height="386" key="GridCell.Tab.0.left/0.0.1620.1080@0.0.1620.1080" timestamp="1575348384434" />
+    <state width="1600" height="386" key="GridCell.Tab.0.right" timestamp="1575348384435">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1600" height="386" key="GridCell.Tab.0.right/0.0.1620.1080@0.0.1620.1080" timestamp="1575348384435" />
+    <state x="403" y="273" key="Vcs.Push.Dialog.v2" timestamp="1575317048516">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="403" y="273" key="Vcs.Push.Dialog.v2/0.0.1620.1080/-1920.0.1920.1080@0.0.1620.1080" timestamp="1575317048516" />
+    <state x="503" y="276" width="613" height="526" key="find.popup" timestamp="1575146379472">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="503" y="276" width="613" height="526" key="find.popup/0.0.1620.1080@0.0.1620.1080" timestamp="1575146379472" />
+    <state x="469" y="252" key="run.anything.popup" timestamp="1575146927765">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="469" y="252" key="run.anything.popup/0.0.1620.1080@0.0.1620.1080" timestamp="1575146927765" />
   </component>
 </project>
