@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebb5d512-f91e-4689-b296-7ff3a1bf85b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/badgeCustomG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/badgeCustomP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/badgeCustomR.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7aaf6c5601bf2edc2f67a761db8fe4d3fc62a9ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7aaf6c5601bf2edc2f67a761db8fe4d3fc62a9ec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/seat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/seat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1829,7 +1838,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -1849,12 +1858,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\altin\WebstormProjects\reactProj\src\components" />
       <recent name="C:\Users\altin\WebstormProjects\reactProj\node_modules" />
       <recent name="C:\Users\altin\WebstormProjects\reactProj" />
       <recent name="C:\Users\altin\WebstormProjects\reactProj\public" />
       <recent name="C:\Users\altin\WebstormProjects\reactProj\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\altin\WebstormProjects\reactProj\src\components" />
+      <recent name="C:\Users\altin\WebstormProjects\reactProj\src\components\stories" />
       <recent name="C:\Users\altin\WebstormProjects\reactProj\public\js" />
       <recent name="C:\Users\altin\WebstormProjects\reactProj\public\css" />
       <recent name="C:\Users\altin\WebstormProjects\reactapp\src" />
@@ -1920,7 +1932,10 @@
       <workItem from="1575108528924" duration="2488000" />
       <workItem from="1575131391906" duration="21274000" />
       <workItem from="1575316974379" duration="431000" />
-      <workItem from="1575344991776" duration="5022000" />
+      <workItem from="1575344991776" duration="5508000" />
+      <workItem from="1575401847012" duration="30922000" />
+      <workItem from="1575483797160" duration="11623000" />
+      <workItem from="1575501755882" duration="5819000" />
     </task>
     <task id="LOCAL-00001" summary="added initial refresh buttons and structure">
       <created>1574397642278</created>
@@ -1978,38 +1993,59 @@
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state x="403" y="198" key="#ESLint/0.0.1620.1080@0.0.1620.1080" timestamp="1575163763351" />
-    <state x="946" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575140858933">
+    <state x="946" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575437911793">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
+    <state x="946" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1620.1080/-1360.574.1360.768@0.0.1620.1080" timestamp="1575437911793" />
     <state x="946" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1620.1080@0.0.1620.1080" timestamp="1575140858933" />
-    <state width="1600" height="386" key="GridCell.Tab.0.bottom" timestamp="1575350596118">
+    <state width="581" height="101" key="GridCell.Tab.0.bottom" timestamp="1575514674878">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
-    <state width="1600" height="386" key="GridCell.Tab.0.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1575350596118" />
-    <state width="1600" height="386" key="GridCell.Tab.0.center" timestamp="1575350596117">
+    <state width="1599" height="101" key="GridCell.Tab.0.bottom/0.0.1620.1080/-1360.574.1360.768@0.0.1620.1080" timestamp="1575441807576" />
+    <state width="581" height="101" key="GridCell.Tab.0.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1575514674878" />
+    <state width="581" height="101" key="GridCell.Tab.0.center" timestamp="1575514674878">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
-    <state width="1600" height="386" key="GridCell.Tab.0.center/0.0.1620.1080@0.0.1620.1080" timestamp="1575350596117" />
-    <state width="1600" height="386" key="GridCell.Tab.0.left" timestamp="1575350596117">
+    <state width="1599" height="101" key="GridCell.Tab.0.center/0.0.1620.1080/-1360.574.1360.768@0.0.1620.1080" timestamp="1575441807575" />
+    <state width="581" height="101" key="GridCell.Tab.0.center/0.0.1620.1080@0.0.1620.1080" timestamp="1575514674878" />
+    <state width="581" height="101" key="GridCell.Tab.0.left" timestamp="1575514674878">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
-    <state width="1600" height="386" key="GridCell.Tab.0.left/0.0.1620.1080@0.0.1620.1080" timestamp="1575350596117" />
-    <state width="1600" height="386" key="GridCell.Tab.0.right" timestamp="1575350596118">
+    <state width="1599" height="101" key="GridCell.Tab.0.left/0.0.1620.1080/-1360.574.1360.768@0.0.1620.1080" timestamp="1575441807575" />
+    <state width="581" height="101" key="GridCell.Tab.0.left/0.0.1620.1080@0.0.1620.1080" timestamp="1575514674878" />
+    <state width="581" height="101" key="GridCell.Tab.0.right" timestamp="1575514674878">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
-    <state width="1600" height="386" key="GridCell.Tab.0.right/0.0.1620.1080@0.0.1620.1080" timestamp="1575350596118" />
-    <state x="403" y="273" key="Vcs.Push.Dialog.v2" timestamp="1575349643027">
+    <state width="1599" height="101" key="GridCell.Tab.0.right/0.0.1620.1080/-1360.574.1360.768@0.0.1620.1080" timestamp="1575441807576" />
+    <state width="581" height="101" key="GridCell.Tab.0.right/0.0.1620.1080@0.0.1620.1080" timestamp="1575514674878" />
+    <state x="403" y="273" key="Vcs.Push.Dialog.v2" timestamp="1575351119775">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state x="403" y="273" key="Vcs.Push.Dialog.v2/0.0.1620.1080/-1920.0.1920.1080@0.0.1620.1080" timestamp="1575317048516" />
-    <state x="403" y="273" key="Vcs.Push.Dialog.v2/0.0.1620.1080@0.0.1620.1080" timestamp="1575349643027" />
-    <state x="503" y="276" width="613" height="526" key="find.popup" timestamp="1575350486625">
+    <state x="403" y="273" key="Vcs.Push.Dialog.v2/0.0.1620.1080@0.0.1620.1080" timestamp="1575351119775" />
+    <state x="618" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575428813547">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
+    <state x="618" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1620.1080/-1360.574.1360.768@0.0.1620.1080" timestamp="1575428813547" />
+    <state x="503" y="276" width="820" height="526" key="find.popup" timestamp="1575439092510">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="503" y="276" width="820" height="526" key="find.popup/0.0.1620.1080/-1360.574.1360.768@0.0.1620.1080" timestamp="1575439092510" />
     <state x="503" y="276" width="613" height="526" key="find.popup/0.0.1620.1080@0.0.1620.1080" timestamp="1575350486625" />
-    <state x="469" y="252" key="run.anything.popup" timestamp="1575146927765">
+    <state x="470" y="252" key="run.anything.popup" timestamp="1575488221922">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
-    <state x="469" y="252" key="run.anything.popup/0.0.1620.1080@0.0.1620.1080" timestamp="1575146927765" />
+    <state x="470" y="252" key="run.anything.popup/0.0.1620.1080@0.0.1620.1080" timestamp="1575488221922" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/seat.js</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

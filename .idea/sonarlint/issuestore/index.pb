@@ -27,3 +27,15 @@ K
 	server.js,d\c\dc60ea9ee1ff6246bf342463277d5b914db2883d
 N
 public/js/chart-device-data.js,4\0\409a216bce508abb34aa016584d4f8a15506dd7b
+Y
+)src/components/SeatIconPurpleComponent.js,b\0\b0935172366689f4775967ffde0927faeb04527d
+G
+src/components/Stage.js,2\b\2b49ebffefb4cf4176c1234acf910d7d0eb2a2c6
+O
+src/components/Stage.stories.js,7\5\75664501566d42af8b64f63ee2c3c58a6b514c38
+N
+src/components/badgeCustomG.js,6\9\693ce68093d96f6fd12b5e224c3bc1fde2e59c06
+N
+src/components/badgeCustomP.js,9\a\9a5d1acc1878c25b44cd23381aacd4b708443fd7
+N
+src/components/badgeCustomR.js,d\b\db6094b9b2ea9fd5a7d154a824c3be27cdddef3b

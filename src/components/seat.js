@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import Websocket from "react-websocket";
+import SeatIconOrangeComponent from "./SeatIconOrangeComponent";
+import SeatIconPurpleComponent from "./SeatIconPurpleComponent";
+import SeatIconRedComponent from "./SeatIconRedComponent";
 /* eslint-disable no-restricted-globals */
 
 const protocol = document.location.protocol.startsWith("https")
@@ -7,47 +10,86 @@ const protocol = document.location.protocol.startsWith("https")
   : "ws://";
 console.log(protocol);
 console.log(location.host);
-
+// const logo = require('./logo.jpeg); ALTIN
+var count = 0;
+var seatsTaken = 0;
 class Seat extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     // Dont bind when using arrow function
     // this.handleChange = this.handleChange.bind(this);
     this.state = {
-      isTaken: false,
-      color: "red"
+      isTaken: 0,
+      color: "red",
+      seatImage: <SeatIconPurpleComponent />
     };
   }
 
   handleData(data) {
     let result = JSON.parse(data);
+    console.log("start");
     console.log(result.IotData);
+    console.log("finish");
     //let isTaken = result.IotData.TEST;
     let newColor;
-    if (result.IotData.TEST) {
-      newColor = "red";
+    let newImage;
+    if (result.IotData.TEST === 0) {
+      // newColor = "red";
+      newImage = <SeatIconRedComponent />;
+      seatsTaken = 1;
       // isTaken = false;
-    } else {
-      newColor = "green";
+    } else if (result.IotData.TEST === 1) {
+      // newColor = "gray";
+      newImage = <SeatIconOrangeComponent />;
       // isTaken = true;
+    } else if (result.IotData.TEST === 2) {
+      // newColor = "green";
+      seatsTaken = 0;
+      newImage = <SeatIconPurpleComponent />;
+      seatsTaken = -1;
     }
-    this.setState({ color: newColor, isTaken: result.IotData.TEST });
+    this.setState({
+      // color: newColor,
+      isTaken: result.IotData.TEST,
+      seatImage: newImage
+    });
+    this.props.onChangeSeatsTaken(seatsTaken);
+    console.log(this.props.seatsTaken);
   }
 
   handleChange = event => {
+    // seatsTaken={this.state.seatsTaken}
+    // onChangeSeatsTaken={this.handleChangeSeat}
+
     let { isTaken } = this.state;
     let newColor;
-    if (isTaken) {
+    let newImage;
+    isTaken = count % 3;
+    //console.log(isTaken);
+    if (isTaken === 0) {
       newColor = "red";
-      isTaken = false;
-    } else {
+      newImage = <SeatIconRedComponent />;
+      seatsTaken = -1;
+    } else if (isTaken === 1) {
       newColor = "green";
-      isTaken = true;
+      newImage = <SeatIconPurpleComponent />;
+      seatsTaken = 1;
+      console.log(seatsTaken);
+    } else if (isTaken === 2) {
+      newImage = <SeatIconOrangeComponent />;
+      newColor = "blue";
+      seatsTaken = 0;
     }
-    this.setState({ color: newColor, isTaken: isTaken });
+    count += 1;
+    //console.log(count);
+    this.setState({ color: newColor, isTaken: isTaken, seatImage: newImage });
+    this.props.onChangeSeatsTaken(seatsTaken);
+    console.log(this.props.seatsTaken);
   };
 
   render() {
+    let chairColor = this.state.seatImage;
+    //if(chairColor = )
     return (
       <div className="Seating">
         <div className="class-Room">
@@ -55,14 +97,13 @@ class Seat extends Component {
             url={protocol + "localhost:4000"}
             onMessage={this.handleData.bind(this)}
           />
-          <div
-            className="circle"
-            style={{ background: this.state.color }}
-          ></div>
+          {/*<div className="circle" style={{ background: this.state.color }}>*/}
+          {/*  */}
+          {chairColor}
         </div>
-        <button className="buttons" onClick={this.handleChange}>
-          refresh
-        </button>
+        {/*<button className="buttons" onClick={this.handleChange}>*/}
+        {/*  refresh*/}
+        {/*</button>*/}
       </div>
     );
   }

@@ -1,2 +1,13 @@
 
-Ijavascript:S1128"&Remove this unused import of 'Styles'.(©™¸©8øÃä-
+bjavascript:UnusedVariable?"6Remove the declaration of the unused 'total' variable.(şÌ¨ã8åïµ–í-
+[javascript:S1854?"8Remove this useless assignment to local variable "total"(şÌ¨ã8åïµ–í-
+[javascript:S1128"3Remove this unused import of 'WhiteBoardComponent'.(Û¹Õøÿÿÿÿ8‚´¯“í-
+ijavascript:UnusedVariable@"=Remove the declaration of the unused 'seatsinClass' variable.(ÅÉËŸ8œ†‘–í-
+Tjavascript:S1128",Remove this unused import of 'badgeCustomG'.(‡â¿ªıÿÿÿÿ8à…å”í-
+Sjavascript:S1128"0Remove this unused import of 'ShoppingCartIcon'.(ºï¬÷8Ëş—–í-
+Ujavascript:S1128"-Remove this unused import of 'EventSeatIcon'.(ë—úîûÿÿÿÿ8ÊÑ»–í-
+Ijavascript:S1128"&Remove this unused import of 'Styles'.(©™¸©8÷ôö’í-
+Xjavascript:S1128"0Remove this unused import of 'LeftsecComponent'.(Í‰Û¬úÿÿÿÿ8Ê¥»ûì-
+Ojavascript:S1128",Remove this unused import of 'badgeCustomP'.(Æ³ºû8ì‘•í-
+Wjavascript:S1128"4Remove this unused import of 'LeftSectionComponent'.(ı¸Ì„8¤‹¯ûì-
+bjavascript:S1854@"?Remove this useless assignment to local variable "seatsinClass"(ÅÉËŸ8œ†‘–í-
